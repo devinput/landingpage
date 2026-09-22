@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.Rafael){document.documentElement.classList.remove("js");}},4000);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Rafael Medeiros | Marketing, Desenvolvimento Web, Tecnologia e Design</title>
+<meta name="description" content="Rafael Medeiros atua há mais de 12 anos na Relicares Viagens, onde é sócio e responsável por marketing, tecnologia, desenvolvimento e comunicação: sites, sistemas, SEO, estratégia digital e design gráfico.">
+<meta name="author" content="Rafael Medeiros">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://relicaresviagens.com.br/rafael-medeiros.html">
+<meta name="theme-color" content="#06070A">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Relicares Viagens">
+<meta property="og:title" content="Rafael Medeiros | Marketing, Code, Design, Technology">
+<meta property="og:description" content="Sócio da Relicares Viagens. Mais de 12 anos unindo marketing, tecnologia, desenvolvimento e design para transformar ideias em experiências digitais.">
+<meta property="og:url" content="https://relicaresviagens.com.br/rafael-medeiros.html">
+<meta property="og:image" content="https://relicaresviagens.com.br/assets/rafael/images/rafael-og.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rafael Medeiros — Marketing, Code, Design">
+<meta property="profile:first_name" content="Rafael">
+<meta property="profile:last_name" content="Medeiros">
+
+<!-- X / Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rafael Medeiros | Marketing, Code, Design, Technology">
+<meta name="twitter:description" content="Sócio da Relicares Viagens. Mais de 12 anos unindo marketing, tecnologia, desenvolvimento e design.">
+<meta name="twitter:image" content="https://relicaresviagens.com.br/assets/rafael/images/rafael-og.webp">
+
+<link rel="icon" href="assets/rafael/logo/logo.png" type="image/png">
+
+<!-- Tipografia -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&family=Inter+Tight:wght@300;400;500&display=swap">
+
+<link rel="preload" as="image" href="assets/rafael/hero/rafael-hero.webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/rafael/css/rafael.css">
+</head>
+
+<style>
+.autoscroll-player {
+    position: fixed;
+    top: 22px;
+    right: 22px;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px;
+    background: rgba(15, 15, 15, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.scroll-btn {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 11px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #ffffff 0%, #e9e9e9 45%, #bcbcbc 100%);
+    color: #111;
+    font-size: 15px;
+    box-shadow: 0 4px 0 #888, 0 7px 12px rgba(0, 0, 0, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.9);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.2s ease;
+}
+.scroll-btn:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 0 #888, 0 9px 15px rgba(0, 0, 0, 0.4), inset 0 1px 2px rgba(255, 255, 255, 1);
+}
+.scroll-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #888, 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+.scroll-play {
+    width: 46px;
+    height: 46px;
+    font-size: 17px;
+}
+.scroll-btn span {
+    display: block;
+    line-height: 1;
+    transform: translateY(-1px);
+}
+@media (max-width: 600px) {
+    .autoscroll-player {
+        top: 12px;
+        right: 12px;
+        padding: 5px;
+        border-radius: 13px;
+    }
+    .scroll-btn {
+        width: 36px;
+        height: 36px;
+        border-radius: 9px;
+        font-size: 12px;
+    }
+    .scroll-play {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+.autoscroll-player { display: none !important; }
+</style>
+
+<body data-page="rafael-medeiros">
+<div class="autoscroll-player" id="autoscrollPlayer">
+    <button class="scroll-btn" id="scrollBack" aria-label="Voltar" title="Voltar"><span>⏮</span></button>
+    <button class="scroll-btn scroll-play" id="scrollPlay" aria-label="Pausar" title="Pausar"><span id="playIcon">Ⅱ</span></button>
+    <button class="scroll-btn" id="scrollNext" aria-label="Avançar" title="Avançar"><span>⏭</span></button>
+</div>
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<div class="progress" role="presentation"><span class="progress__bar" data-progress-bar></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" data-cursor aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__label" data-cursor-label></span></div>
+
+<header class="nav" data-nav>
+  <a class="nav__brand" href="https://relicaresviagens.com.br/" data-cursor-text="Abrir">
+    <img src="assets/rafael/logo/logo.png" alt="Relicares Viagens" width="92" height="92" loading="eager" decoding="async">
+  </a>
+
+  <nav class="nav__menu" id="menu-principal" aria-label="Seções da página">
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#identidade">Perfil</a></li>
+      <li><a href="#expertise">Competências</a></li>
+      <li><a href="#relicares">Relicares</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <button class="nav__toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="menu-principal">
+    <span class="nav__toggle-bars" aria-hidden="true"><i></i><i></i></span>
+    <span class="nav__toggle-text" data-menu-label>Menu</span>
+  </button>
+</header>
+
+<main id="conteudo">
+  <section class="hero" id="inicio" data-section="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img class="hero__still" src="assets/rafael/hero/rafael-hero.jpg" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+      <span class="hero__veil"></span>
+    </div>
+    <canvas class="hero__canvas" data-particles aria-hidden="true"></canvas>
+
+    <div class="hero__inner">
+      <p class="hero__eyebrow"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span class="hero__eyebrow-sep"></span> <span>Marketing &amp; Tecnologia</span></p>
+      <h1 class="hero__name" data-split>Rafael Medeiros</h1>
+      <p class="hero__headline">Onde código, criatividade e estratégia se encontram.</p>
+      <p class="hero__sub">Mais de 12 anos construindo sites, sistemas, campanhas e identidade visual para a Relicares Viagens — empresa da qual também é sócio.</p>
+      <ul class="hero__tags">
+        <li>Marketing</li>
+        <li>Code</li>
+        <li>Design</li>
+        <li>Technology</li>
+      </ul>
+    </div>
+
+    <a class="hero__scroll" href="#manifesto" aria-label="Avançar para a próxima seção">
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+      <span>Role para começar</span>
+    </a>
+  </section>
+
+  <section class="reel" id="manifesto" data-scroll-video aria-labelledby="reel-titulo">
+    <h2 class="visually-hidden" id="reel-titulo">Como uma ideia vira uma experiência digital</h2>
+    <div class="reel__stage" data-reel-stage>
+      <video class="reel__video" data-reel-video src="assets/rafael/hero/rafael-hero.mp4" poster="assets/rafael/hero/rafael-hero.jpg" muted playsinline preload="auto" disablepictureinpicture tabindex="-1" aria-hidden="true"></video>
+      <img class="reel__fallback" data-reel-fallback src="assets/rafael/hero/rafael-hero.jpg" alt="Rafael Medeiros trabalhando em um projeto digital" width="1920" height="1080" loading="lazy" decoding="async">
+      <span class="reel__veil" aria-hidden="true"></span>
+      <div class="reel__captions">
+        <p class="reel__caption" data-reel-caption="0">Ideias começam como possibilidades.</p>
+        <p class="reel__caption" data-reel-caption="1">Transformá-las em experiências exige tecnologia.</p>
+        <p class="reel__caption" data-reel-caption="2">E estratégia.</p>
+        <p class="reel__caption reel__caption--sign" data-reel-caption="3">
+          <span class="reel__signature">Rafael Medeiros</span>
+          <span class="reel__role">Marketing • Code • Design</span>
+        </p>
+      </div>
+    </div>
+    <div class="reel__track" data-reel-track aria-hidden="true"></div>
+  </section>
+
+  <section class="identity" id="identidade" aria-labelledby="identidade-titulo">
+    <div class="identity__text">
+      <h2 class="h-display" id="identidade-titulo" data-split>Um profissional. Várias disciplinas.</h2>
+      <p class="lede" data-reveal>Rafael trabalha no ponto onde marketing, código e design deixam de ser áreas separadas. O site precisa vender, o sistema precisa funcionar, a arte precisa ser reconhecida na rua — e tudo isso costuma nascer da mesma mesa.</p>
+      <p data-reveal>Na prática, o dia mistura desenvolvimento de sites e sistemas, campanhas digitais, SEO, criação de peças gráficas e a comunicação visual que acompanha cada viagem da Relicares.</p>
+      <dl class="identity__pillars" data-reveal>
+        <div><dt>Marketing</dt><dd>Campanhas, presença digital e conteúdo.</dd></div>
+        <div><dt>Código</dt><dd>Sites, sistemas e integrações sob medida.</dd></div>
+        <div><dt>Design</dt><dd>Identidade visual e materiais impressos.</dd></div>
+        <div><dt>Tecnologia</dt><dd>Automação e soluções para o negócio.</dd></div>
+        <div><dt>Estratégia</dt><dd>Decisões digitais ligadas ao resultado.</dd></div>
+      </dl>
+    </div>
+
+    <figure class="identity__frame" data-parallax="0.12">
+      <img src="assets/rafael/images/rafael-01.png" alt="Retrato de Rafael Medeiros" width="900" height="1200" loading="lazy" decoding="async" data-cursor-text="Ver">
+      <figcaption>Rafael Medeiros, sócio da Relicares Viagens.</figcaption>
+    </figure>
+  </section>
+
+  <section class="years" id="experiencia" aria-labelledby="experiencia-titulo">
+    <p class="years__number"><span data-count-to="12" data-count-from="0">12</span><em>+</em></p>
+    <h2 class="years__label" data-reveal id="experiencia-titulo">Anos de experiência</h2>
+    <p class="years__text" data-reveal>Mais de uma década transformando ideias em comunicação, tecnologia e experiências digitais.</p>
+    <figure class="years__image" data-parallax="0.08">
+      <img src="assets/rafael/images/rafael-trabalhando-01.jfif" alt="Rafael Medeiros trabalhando no computador" width="1400" height="900" loading="lazy" decoding="async" data-cursor-text="Ver">
+    </figure>
+  </section>
+
+  <section class="expertise" id="expertise" aria-labelledby="expertise-titulo">
+    <h2 class="section-title" id="expertise-titulo">Competências</h2>
+
+    <ul class="expertise__list" data-expertise data-reveal>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Marketing</span><span class="expertise__desc">Campanhas, posicionamento e comunicação para atrair e manter clientes.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Desenvolvimento web</span><span class="expertise__desc">Sites autorais, rápidos e responsivos, do layout ao deploy.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Full-stack</span><span class="expertise__desc">Interface, servidor e banco de dados tratados como uma coisa só.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Programação</span><span class="expertise__desc">Sistemas e aplicações feitos sob medida para a operação.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Design gráfico</span><span class="expertise__desc">Peças impressas e digitais com direção visual consistente.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">SEO</span><span class="expertise__desc">Estrutura técnica, conteúdo e semântica para ser encontrado.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Estratégia digital</span><span class="expertise__desc">Escolhas de canal, mensagem e prioridade antes da execução.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Automação</span><span class="expertise__desc">Rotinas repetitivas resolvidas por integrações e scripts.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Tecnologia</span><span class="expertise__desc">Ferramentas escolhidas pelo que resolvem, não pela moda.</span></button></li>
+      <li><button type="button" class="expertise__item" aria-expanded="false"><span class="expertise__name">Comunicação visual</span><span class="expertise__desc">Da identidade da marca ao uniforme usado na viagem.</span></button></li>
+    </ul>
+  </section>
+
+  <section class="stack" id="tecnologia" aria-labelledby="tecnologia-titulo">
+    <div class="stack__head">
+      <h2 class="h-display" id="tecnologia-titulo" data-split>Por trás da experiência</h2>
+      <p class="lede" data-reveal>A parte que o visitante não vê: a estrutura que faz o site carregar rápido, o formulário chegar, o sistema responder e a página ser entendida por pessoas e por máquinas.</p>
+    </div>
+
+    <ul class="stack__grid" data-reveal>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>MySQL</li>
+      <li>APIs</li>
+      <li>SEO</li>
+      <li>Desenvolvimento responsivo</li>
+      <li>Automação</li>
+      <li>Integrações</li>
+      <li>Inteligência artificial</li>
+    </ul>
+
+    <figure class="stack__image" data-parallax="0.1">
+      <img src="assets/rafael/images/rafael-trabalhando-02.jpg" alt="Detalhe de Rafael Medeiros desenvolvendo em frente ao monitor" width="1400" height="900" loading="lazy" decoding="async" data-cursor-text="Ver">
+    </figure>
+  </section>
+
+  <section class="marketing" id="marketing" aria-labelledby="marketing-titulo">
+    <h2 class="h-display marketing__title" id="marketing-titulo" data-split>Tecnologia sem estratégia é apenas tecnologia.</h2>
+    <div class="marketing__body">
+      <p class="lede" data-reveal>Um site bonito que ninguém encontra não resolve. Por isso a construção começa pela pergunta de negócio: quem precisa chegar até aqui, por qual caminho e o que deve acontecer depois.</p>
+      <ul class="marketing__list" data-reveal>
+        <li>Marketing digital</li>
+        <li>SEO</li>
+        <li>Presença digital</li>
+        <li>Campanhas</li>
+        <li>Conteúdo</li>
+        <li>Landing pages</li>
+        <li>Conversão</li>
+        <li>Experiência do usuário</li>
+        <li>Estratégia digital</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="design" id="design" aria-labelledby="design-titulo">
+    <div class="design__intro">
+      <h2 class="h-display" id="design-titulo" data-split>Antes do pixel, existe uma ideia.</h2>
+      <p class="lede" data-reveal>O trabalho gráfico da Relicares nasce junto com a viagem: o que será impresso, entregue na mão do passageiro, colado no vidro do ônibus ou vestido pela equipe.</p>
+    </div>
+
+    <ul class="design__rail" data-rail data-reveal>
+      <li><span class="design__piece">Flyers</span><span class="design__note">Divulgação de roteiros e datas.</span></li>
+      <li><span class="design__piece">Ingressos</span><span class="design__note">Controle e identidade em cada embarque.</span></li>
+      <li><span class="design__piece">Adesivos</span><span class="design__note">A marca aplicada no dia da viagem.</span></li>
+      <li><span class="design__piece">Lembranças</span><span class="design__note">O que fica depois que a excursão termina.</span></li>
+      <li><span class="design__piece">Uniformes</span><span class="design__note">Equipe reconhecível no meio do grupo.</span></li>
+      <li><span class="design__piece">Materiais promocionais</span><span class="design__note">Peças de apoio para ações e eventos.</span></li>
+      <li><span class="design__piece">Identidade visual</span><span class="design__note">Cor, tipografia e uso do logo.</span></li>
+      <li><span class="design__piece">Artes digitais</span><span class="design__note">Formatos para redes, site e mensagens.</span></li>
+    </ul>
+  </section>
+
+  <section class="relicares" id="relicares" aria-labelledby="relicares-titulo">
+    <img class="relicares__logo" src="assets/rafael/logo/logo.png" alt="Relicares Viagens" width="220" height="60" loading="lazy" decoding="async">
+    <h2 class="h-display" id="relicares-titulo" data-split>Uma história construída na prática.</h2>
+    <p class="lede" data-reveal>Há mais de 12 anos, Rafael participa da construção da presença digital e da comunicação da Relicares Viagens, empresa da qual também é sócio.</p>
+
+    <div class="relicares__people" data-reveal>
+      <article>
+        <h3>Ailton</h3>
+        <p>Presidente e fundador da Relicares Viagens.</p>
+      </article>
+      <article>
+        <h3>Rafael Medeiros</h3>
+        <p>Sócio — marketing, tecnologia, desenvolvimento e comunicação.</p>
+      </article>
+    </div>
+
+    <figure class="relicares__frame" data-parallax="0.14">
+      <img src="assets/rafael/images/rafael-02.jfif" alt="Rafael Medeiros em ambiente de trabalho" width="900" height="1200" loading="lazy" decoding="async" data-cursor-text="Ver">
+    </figure>
+  </section>
+
+  <section class="field" id="excursoes" aria-labelledby="excursoes-titulo">
+    <h2 class="h-display" id="excursoes-titulo" data-split>Eventualmente, do outro lado da tela.</h2>
+    <p class="lede" data-reveal>Embora minha atuação principal esteja concentrada em marketing, tecnologia e desenvolvimento, algumas experiências também acontecem fora do computador — acompanhando de perto a operação das excursões da Relicares Viagens.</p>
+  </section>
+
+  <section class="contact" id="contato" aria-labelledby="contato-titulo">
+    <p class="contact__line" data-split>Uma ideia pode começar com uma linha de código.</p>
+    <h2 class="contact__name" id="contato-titulo">Rafael Medeiros</h2>
+    <p class="contact__role" data-reveal>Marketing • Technology • Design</p>
+    <p class="contact__note" data-reveal>Canais de contato oficiais da Relicares Viagens: <a href="https://relicaresviagens.com.br/" data-cursor-text="Abrir">relicaresviagens.com.br</a></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Rafael Medeiros — Sócio da Relicares Viagens.</p>
+  <p><a href="https://relicaresviagens.com.br/" data-cursor-text="Abrir">Voltar ao site da Relicares</a></p>
+</footer>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script defer src="assets/rafael/js/rafael.js"></script>
+<script defer src="assets/rafael/js/rafael-animations.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#pagina",
+      "url": "https://relicaresviagens.com.br/rafael-medeiros.html",
+      "name": "Rafael Medeiros | Marketing, Desenvolvimento Web, Tecnologia e Design",
+      "inLanguage": "pt-BR",
+      "description": "Perfil profissional de Rafael Medeiros, sócio da Relicares Viagens, responsável por marketing, tecnologia, desenvolvimento e comunicação.",
+      "mainEntity": { "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#rafael" },
+      "isPartOf": { "@id": "https://relicaresviagens.com.br/#site" },
+      "breadcrumb": { "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#breadcrumb" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://relicaresviagens.com.br/#site",
+      "url": "https://relicaresviagens.com.br/",
+      "name": "Relicares Viagens",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://relicaresviagens.com.br/#organizacao" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Relicares Viagens", "item": "https://relicaresviagens.com.br/" },
+        { "@type": "ListItem", "position": 2, "name": "Rafael Medeiros", "item": "https://relicaresviagens.com.br/rafael-medeiros.html" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://relicaresviagens.com.br/#organizacao",
+      "name": "Relicares Viagens",
+      "url": "https://relicaresviagens.com.br/",
+      "logo": "https://relicaresviagens.com.br/assets/rafael/logo/logo.png",
+      "founder": { "@type": "Person", "name": "Ailton", "jobTitle": "Presidente e fundador" },
+      "member": { "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#rafael" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://relicaresviagens.com.br/rafael-medeiros.html#rafael",
+      "name": "Rafael Medeiros",
+      "givenName": "Rafael",
+      "familyName": "Medeiros",
+      "jobTitle": "Sócio — Marketing, Tecnologia, Desenvolvimento e Comunicação",
+      "description": "Profissional com mais de 12 anos de atuação em marketing, tecnologia, desenvolvimento e comunicação na Relicares Viagens, empresa da qual é sócio.",
+      "image": "https://relicaresviagens.com.br/assets/rafael/images/rafael-01.png",
+      "url": "https://relicaresviagens.com.br/rafael-medeiros.html",
+      "worksFor": { "@id": "https://relicaresviagens.com.br/#organizacao" },
+      "memberOf": { "@id": "https://relicaresviagens.com.br/#organizacao" },
+      "knowsAbout": [
+        "Marketing digital",
+        "Desenvolvimento web",
+        "Desenvolvimento full-stack",
+        "Programação",
+        "Design gráfico",
+        "SEO",
+        "Estratégia digital",
+        "Automação",
+        "Comunicação visual",
+        "Marketing para turismo"
+      ],
+      "knowsLanguage": "pt-BR"
+    }
+  ]
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const logo = document.querySelector(".nav__brand");
+  if (!logo) return;
+  let lastScrollY = window.scrollY;
+  function handleLogoScroll() {
+    if (window.innerWidth < 769) {
+      logo.classList.remove("logo-hidden");
+      return;
+    }
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      logo.classList.add("logo-hidden");
+    }
+    if (currentScrollY < lastScrollY) {
+      logo.classList.remove("logo-hidden");
+    }
+    lastScrollY = currentScrollY;
+  }
+  window.addEventListener("scroll", handleLogoScroll, { passive: true });
+  window.addEventListener("resize", handleLogoScroll);
+});
+</script>
+
+<script>
+/* AUTOSCROLL */
+document.addEventListener("DOMContentLoaded", () => {
+    const CONFIG = {
+        duration: 100,
+        autoplay: true,
+        endBehavior: "stop",
+        nextDistance: 700,
+        backDistance: 700,
+        buttonDuration: 900
+    };
+    const player = document.getElementById("autoscrollPlayer");
+    const playButton = document.getElementById("scrollPlay");
+    const playIcon = document.getElementById("playIcon");
+    const nextButton = document.getElementById("scrollNext");
+    const backButton = document.getElementById("scrollBack");
+
+    function goToScroll(position, opts) {
+        opts = opts || {};
+        const lenis = window.Rafael && window.Rafael.lenis;
+        if (lenis) {
+            lenis.scrollTo(position, Object.assign({ immediate: true }, opts));
+        } else {
+            window.scrollTo(0, position);
+        }
+    }
+    let isPlaying = false;
+    let animationFrame = null;
+    let lastTime = null;
+    function getMaxScroll() { return Math.max(0, document.documentElement.scrollHeight - window.innerHeight); }
+    function getScrollSpeed() {
+        const maxScroll = getMaxScroll();
+        if (maxScroll <= 0) return 0;
+        return maxScroll / CONFIG.duration;
+    }
+    function autoScroll(timestamp) {
+        if (!isPlaying) {
+            animationFrame = null;
+            lastTime = null;
+            return;
+        }
+        if (!lastTime) lastTime = timestamp;
+        const deltaTime = (timestamp - lastTime) / 1000;
+        lastTime = timestamp;
+        const speed = getScrollSpeed();
+        const currentPosition = window.scrollY;
+        const maxScroll = getMaxScroll();
+        let newPosition = currentPosition + (speed * deltaTime);
+        if (newPosition >= maxScroll) {
+            newPosition = maxScroll;
+            goToScroll(newPosition);
+            if (CONFIG.endBehavior === "loop") {
+                goToScroll(0);
+                lastTime = performance.now();
+                animationFrame = requestAnimationFrame(autoScroll);
+                return;
+            }
+            pauseScroll();
+            return;
+        }
+        goToScroll(newPosition);
+        animationFrame = requestAnimationFrame(autoScroll);
+    }
+    function playScroll() {
+        if (isPlaying) return;
+        isPlaying = true;
+        lastTime = null;
+        playIcon.textContent = "Ⅱ";
+        playButton.setAttribute("aria-label", "Pausar");
+        animationFrame = requestAnimationFrame(autoScroll);
+    }
+    function pauseScroll() {
+        isPlaying = false;
+        lastTime = null;
+        if (animationFrame) {
+            cancelAnimationFrame(animationFrame);
+            animationFrame = null;
+        }
+        playIcon.textContent = "▶";
+        playButton.setAttribute("aria-label", "Continuar");
+    }
+    playButton.addEventListener("click", () => isPlaying ? pauseScroll() : playScroll());
+    nextButton.addEventListener("click", () => {
+        pauseScroll();
+        const maxScroll = getMaxScroll();
+        const target = Math.min(window.scrollY + CONFIG.nextDistance, maxScroll);
+        goToScroll(target, { immediate: false });
+    });
+    backButton.addEventListener("click", () => {
+        pauseScroll();
+        const target = Math.max(window.scrollY - CONFIG.backDistance, 0);
+        goToScroll(target, { immediate: false });
+    });
+    let userInteracting = false;
+    window.addEventListener("wheel", () => { if (isPlaying) pauseScroll(); }, { passive: true });
+    window.addEventListener("touchstart", () => { if (isPlaying) pauseScroll(); }, { passive: true });
+    window.addEventListener("keydown", (event) => {
+        const scrollKeys = ["ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End", " ", "Spacebar"];
+        if (scrollKeys.includes(event.key) && isPlaying) pauseScroll();
+    });
+    window.addEventListener("resize", () => { if (isPlaying) lastTime = null; });
+    if (CONFIG.autoplay) {
+        setTimeout(() => { playScroll(); }, 1000);
+    }
+});
+</script>
+
+</body>
+</html>

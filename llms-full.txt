@@ -1,0 +1,16 @@
+# Rafael Medeiros — landing page
+
+Nome: Rafael Medeiros
+Cargo: Sócio da Relicares Viagens
+Especialidades: marketing, desenvolvimento web, tecnologia, design, SEO, estratégia digital, comunicação visual
+
+Resumo:
+Rafael Medeiros atua há mais de 12 anos na Relicares Viagens, combinando marketing, tecnologia, desenvolvimento e design para criar experiências digitais e materiais de comunicação que apoiam a presença da empresa e sua operação.
+
+Arquivos relevantes:
+- `index.html`: página principal
+- `README-RAFAEL-MEDEIROS.md`: documentação do projeto
+- `niche-researcher.agent.md`: agente de pesquisa de nichos
+- `site-template-specialist.agent.md`: agente para desenvolvimento e template
+
+A página foi estruturada para ser independente, responsiva, com SEO, JSON-LD e conteúdo acessível. O projeto também inclui uma estrutura de assets dedicada em `assets/rafael/`.

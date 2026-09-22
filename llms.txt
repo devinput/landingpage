@@ -1,0 +1,37 @@
+# Rafael Medeiros
+
+Página pessoal e perfil profissional para o projeto `landingpage`, com foco em marketing, tecnologia, design e presença digital.
+
+## Objetivo
+
+Apresentar Rafael Medeiros como sócio da Relicares Viagens, destacando:
+
+- marketing digital
+- desenvolvimento web
+- design
+- tecnologia
+- SEO e estratégia digital
+- comunicação visual
+- presença online profissional
+
+## Estrutura principal
+
+- página inicial com hero e narrativa visual
+- seção de identidade e competências
+- seção de experiência profissional
+- seção de stack e marketing
+- seção de design e Relicares
+- seção de contato
+- schema.org/JSON-LD para SEO e IA
+
+## Arquivos-chave
+
+- `index.html`
+- `README-RAFAEL-MEDEIROS.md`
+- `assets/rafael/css/rafael.css`
+- `assets/rafael/js/rafael.js`
+- `assets/rafael/js/rafael-animations.js`
+
+## Observações
+
+Este diretório foi criado para manter a página independente do restante do site, com assets e estilos isolados em `/assets/rafael/`.
